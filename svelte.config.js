@@ -17,8 +17,8 @@ const config = {
 		vite: {
 			resolve: {
 				alias: {
-					'svelte-google-login': resolve('/src/lib'),
-					'svelte-google-login/*': resolve('/src/lib/*'),
+					'google-login-svelte': resolve('/src/lib'),
+					'google-login-svelte/*': resolve('/src/lib/*'),
 				}
 			}
 		}

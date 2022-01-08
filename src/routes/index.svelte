@@ -1,6 +1,6 @@
 <script lang="ts">  
-   import { GoogleLogin, GoogleLogout, Icon } from 'svelte-google-login'
-   import type { GoogleLoginResponse, ProfileObject } from 'svelte-google-login'
+   import { GoogleLogin, GoogleLogout, Icon } from 'google-login-svelte'
+   import type { GoogleLoginResponse, ProfileObject } from 'google-login-svelte'
 
    const googleId = import.meta.env.VITE_GOOGLE_CLIENT_ID as string
    let user = null as ProfileObject
