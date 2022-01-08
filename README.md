@@ -1,4 +1,4 @@
-# svelte-google-login
+# google-login-svelte
 
 This is a simple [svelte](https://svelte.dev) component that allows the user to **sign in** with Google.
 Essentially, this is the *svelte* version of the [react-google-login](https://github.com/anthonyjgrove/react-google-login)
@@ -11,14 +11,14 @@ package.
 Install with npm
 
 ```bash
-npm install svelte-google-login
+npm install google-login-svelte
 ```
 
 ### Basic usage
 
 ```svelte
 <script>
-   import { GoogleLogin } from 'svelte-google-login'
+   import { GoogleLogin } from 'google-login-svelte'
 
    let user = null
 
@@ -53,8 +53,8 @@ npm install svelte-google-login
 
 ```svelte
 <script lang="ts">
-   import { GoogleLogin } from 'svelte-google-login'
-   import type { GoogleLoginResponse } from 'svelte-google-login'
+   import { GoogleLogin } from 'google-login-svelte'
+   import type { GoogleLoginResponse } from 'google-login-svelte'
 
    let user = null
 
